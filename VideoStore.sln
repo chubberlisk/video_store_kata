@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStore.AcceptanceTest", "VideoStore.AcceptanceTest\VideoStore.AcceptanceTest.csproj", "{2A5E8AA2-4D06-4868-9902-DA9DA913BC08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStore", "VideoStore\VideoStore.csproj", "{1C14F707-BFAF-4860-B079-F3F6C5499D15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A5E8AA2-4D06-4868-9902-DA9DA913BC08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5E8AA2-4D06-4868-9902-DA9DA913BC08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5E8AA2-4D06-4868-9902-DA9DA913BC08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5E8AA2-4D06-4868-9902-DA9DA913BC08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C14F707-BFAF-4860-B079-F3F6C5499D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C14F707-BFAF-4860-B079-F3F6C5499D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C14F707-BFAF-4860-B079-F3F6C5499D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C14F707-BFAF-4860-B079-F3F6C5499D15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
