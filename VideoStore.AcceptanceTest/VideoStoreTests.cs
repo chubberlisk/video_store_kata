@@ -21,7 +21,7 @@ namespace VideoStore.AcceptanceTest
             createRental.Execute(
                 new CreateRentalRequest
                 {
-                    Name = "Batman Begins",
+                    MovieName = "Batman Begins",
                     Days = 1
                 }
              );
@@ -29,7 +29,7 @@ namespace VideoStore.AcceptanceTest
             createRental.Execute(
                 new CreateRentalRequest
                 {
-                    Name = "The Dark Knight",
+                    MovieName = "The Dark Knight",
                     Days = 2
                 }
             );
@@ -37,7 +37,7 @@ namespace VideoStore.AcceptanceTest
             createRental.Execute(
                 new CreateRentalRequest
                 {
-                    Name = "The Dark Knight Rises",
+                    MovieName = "The Dark Knight Rises",
                     Days = 3
                 }
             );

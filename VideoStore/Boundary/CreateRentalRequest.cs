@@ -2,7 +2,7 @@ namespace VideoStore.Boundary
 {
     public class CreateRentalRequest
     {
-        public string Name { get; set; }
+        public string MovieName { get; set; }
         public int Days { get; set; }
     }
 }

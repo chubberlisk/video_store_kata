@@ -6,12 +6,20 @@ namespace VideoStore.UseCase
 {
     public class CreateRental
     {
-        public CreateRental(InMemoryMovieTypeGateway movieTypeGateway, InMemoryRentalGateway rentalGateway)
+        private readonly IMovieTypeRetriever _movieTypeRetriever;
+        private readonly IRentalSaver _rentalSaver;
+
+        public CreateRental(IMovieTypeRetriever movieTypeRetriever, IRentalSaver rentalSaver)
         {
+            _movieTypeRetriever = movieTypeRetriever;
+            _rentalSaver = rentalSaver;
         }
 
-        public void Execute(CreateRentalRequest p0)
+        public void Execute(CreateRentalRequest createRentalRequest)
         {
+            var movie = _movieTypeRetriever.Retrieve(createRentalRequest.MovieName, createRentalRequest.Days);
+
+            _rentalSaver.Save(createRentalRequest.MovieName, movie.Cost);
         }
     }
 }
