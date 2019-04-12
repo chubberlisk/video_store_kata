@@ -1,4 +1,4 @@
-namespace VideoStore.AcceptanceTest
+namespace VideoStore.Gateway
 {
     public class InMemoryRentalGateway
     {

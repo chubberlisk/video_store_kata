@@ -1,4 +1,4 @@
-using VideoStore.AcceptanceTest;
+using VideoStore.Gateway;
 
 namespace VideoStore.UseCase
 {
